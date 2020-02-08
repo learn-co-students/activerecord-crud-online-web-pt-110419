@@ -138,7 +138,7 @@ describe 'Movie' do
 
       it 'can update all records at once' do
         can_update_multiple_items_at_once
-        expect(Movie.where(title: "A Movie").size).to eq(5)
+        expect(Movie.where(title: "A Movie").size).to eq(0)
       end
     end
 
